@@ -1,0 +1,10 @@
+{
+  "name": "taobao-item-update",
+  "version": "2013.05.08",
+  "private": true,
+  "dependencies": {
+    "express": "3.2.3",
+    "jade": "*",
+    "less-middleware": "*"
+  }
+}
