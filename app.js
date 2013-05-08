@@ -25,7 +25,7 @@ app.use(express.methodOverride());
 app.use(express.cookieParser('TODO-ADD-SECRET-STRING'));
 app.use(express.session());
 app.use(app.router);
-app.use(require('less-middleware')({ src: __dirname + '/public'}));
+  app.use(require('less-middleware')({ src: __dirname + '/public', debug: true}));
 app.use(express.static(path.join(__dirname, 'public'))); // 设置静态目录
 
 // 开发环境设置
